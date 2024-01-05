@@ -18,4 +18,18 @@ body {
     font-size: 45px;
     line-height: 62px;
     color: #FFFFFF;
+    text-align: center;
+}
+
+#section-1 p{
+
+font-family: 'Nunito' sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 55px;
+text-align: justify;
+
+color: #FFFFFF;
+
 }
