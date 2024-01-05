@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&family=Nunito:wght@200&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+}
+#section-1{
+    background: linear-gradient(175deg, #6C63FF 0%, #6C63FF 60%, transparent 50%, transparent 100%);
+    height: 100vh; 
+    margin: 0;
+    padding: 25px 10px;
+}
+
+#section-1 h1{
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 62px;
+    color: #FFFFFF;
 }
