@@ -9,6 +9,7 @@ body {
     height: 100vh; 
     margin: 0;
     padding: 25px 10px;
+    margin-bottom: 30px;
 }
 
 #section-1 h1{
@@ -19,7 +20,6 @@ body {
     line-height: 62px;
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 30px;
 }
 
 #section-1 p{
@@ -66,7 +66,21 @@ color: #6C63FF;
     width: 100%;
 }
 
+#section-2 p{
+    font-family: 'Nunito' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: justify;
+    color: #6C63FF;
+}
 
+#section-3{
+    background-color:#6C63FF;
+    height: 100vh; 
+    
+}
 
 
 
