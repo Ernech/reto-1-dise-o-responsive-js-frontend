@@ -33,3 +33,8 @@ text-align: justify;
 color: #FFFFFF;
 
 }
+
+.photo-container{
+    max-width: 585px;
+    max-height: 278px;
+}
