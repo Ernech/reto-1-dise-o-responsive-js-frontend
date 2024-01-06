@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&family=Nunito:wght@200&display=swap');
 
+html{
+    position: relative;
+    min-height: 100%;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -84,6 +89,7 @@ color: #6C63FF;
 #section-3{
     padding: 30px 0;
     background-color:#6C63FF;
+    margin-bottom: 60px;
     
 }
 
@@ -128,7 +134,6 @@ footer{
     height: 60px;
     width: 100%;
   }
-
 
 
 
