@@ -8,9 +8,21 @@
             if (!form.checkValidity()) {
                 event.preventDefault();
                 event.stopPropagation();
+                printFormData(form);
             }
 
             form.classList.add('was-validated');
         }, false);
     });
+
+    function printFormData(form) {
+        var formData = new FormData(form);
+
+        console.log("Form Data:");
+
+        formData.forEach(function (value, key) {
+            console.log(key + ':', value);
+        });
+    }
+
 })();
