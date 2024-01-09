@@ -21,7 +21,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 46px;
     line-height: 62px;
     color: #FFFFFF;
     text-align: center;
@@ -38,12 +38,12 @@ body {
     text-align: justify;
     color: #FFFFFF;
     margin-bottom: 25px;
-
 }
 
 .photo-container {
     max-width: 400px;
     max-height: 350px;
+    margin: 0 auto;
 }
 
 #section-1 form {
@@ -51,8 +51,9 @@ body {
     box-shadow: 10px 8px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 20px 25px;
-    max-width: 100%;
+    max-width: 450px;
     height: 100%;
+    margin: 0 auto;
 }
 
 #section-1 form h2 {
@@ -138,7 +139,7 @@ footer {
     width: 100%;
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 990px) {
 
     #section-1 h1{
         line-height: 50px;
@@ -148,7 +149,9 @@ footer {
         text-align: center;
         line-height: 35px;
     }
-    
+    #section-3 h2{
+        text-align: center;
+    }
 .photo-container {
     max-width: 500px;
     max-height: 450px;
