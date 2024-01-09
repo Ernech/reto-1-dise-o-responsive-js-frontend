@@ -141,26 +141,29 @@ footer {
 
 @media screen and (min-width: 481px) and (max-width: 990px) {
 
-    #section-1 h1{
+    #section-1 h1 {
         line-height: 50px;
         margin-bottom: 30px;
     }
+
     #section-1 p {
         text-align: center;
         line-height: 35px;
     }
-    #section-3 h2{
+
+    #section-3 h2 {
         text-align: center;
     }
-.photo-container {
-    max-width: 500px;
-    max-height: 450px;
-    margin: 15px auto;
-}
 
-#section-3 .photo-container {
-    max-width: 200px;
-}
+    .photo-container {
+        max-width: 500px;
+        max-height: 450px;
+        margin: 15px auto;
+    }
+
+    #section-3 .photo-container {
+        max-width: 200px;
+    }
 
 }
 
@@ -181,7 +184,8 @@ footer {
         max-height: 150px;
         margin: 25px auto;
     }
-    #section-2{
+
+    #section-2 {
         margin-bottom: 15px;
     }
 
