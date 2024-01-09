@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Baskerville&family=Nunito:wght@200&display=swap');
 
-html{
+html {
     position: relative;
     min-height: 100%;
-  }
+}
 
 body {
     margin: 0;
     padding: 0;
 }
-#section-1{
+
+#section-1 {
     background: linear-gradient(175deg, #6C63FF 0%, #6C63FF 60%, transparent 50%, transparent 100%);
-    height: 100vh; 
     margin: 0;
     padding: 25px 10px;
     margin-bottom: 30px;
 }
 
-#section-1 h1{
+#section-1 h1 {
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -28,25 +28,25 @@ body {
     margin-bottom: 40px;
 }
 
-#section-1 p{
+#section-1 p {
 
-font-family: 'Nunito' sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 30px;
-text-align: justify;
-color: #FFFFFF;
-margin-bottom: 25px;
+    font-family: 'Nunito' sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-bottom: 25px;
 
 }
 
-.photo-container{
+.photo-container {
     max-width: 400px;
-    max-height: 150px;
+    max-height: 350px;
 }
 
-#section-1 form{
+#section-1 form {
     background-color: #FFFFFF;
     box-shadow: 10px 8px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -54,30 +54,31 @@ margin-bottom: 25px;
     max-width: 100%;
     height: 100%;
 }
-#section-1 form h2{
 
-font-family: 'Nunito' sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 41px;
-color: #6C63FF;
+#section-1 form h2 {
+
+    font-family: 'Nunito' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    color: #6C63FF;
 
 
 }
 
 
-#section-1 form input[type="submit"]{
+#section-1 form input[type="submit"] {
     background-color: #6C63FF;
     color: #FFFFFF;
     width: 100%;
 }
 
-#section-2{
+#section-2 {
     margin-bottom: 65px;
 }
 
-#section-2 p{
+#section-2 p {
     font-family: 'Nunito' sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -87,102 +88,128 @@ color: #6C63FF;
     color: #6C63FF;
 }
 
-#section-3{
+#section-3 {
     padding: 30px 0;
-    background-color:#6C63FF;
+    background-color: #6C63FF;
     margin-bottom: 60px;
-    
+
 }
 
-#section-3 .photo-container{
+#section-3 .photo-container {
     max-height: 300px;
 }
 
-#section-3 h2{
+#section-3 h2 {
 
-font-family: 'Nunito' sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 61px;
-text-align: justify;
-color: #FFFFFF;
+    font-family: 'Nunito' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: justify;
+    color: #FFFFFF;
 
 }
 
-#section-3 ul{
+#section-3 ul {
     list-style-type: none;
 }
-#section-3 ul li{
+
+#section-3 ul li {
     font-family: 'Nunito' sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 48px;
-    text-align: justify;   
+    text-align: justify;
     color: #FFFFFF;
 }
 
-.icon-container{
+.icon-container {
     max-width: 25px;
     max-height: 25px;
     margin-right: 5px;
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0px;
     height: 60px;
     width: 100%;
-  }
-  @media screen and (min-width: 481px) and (max-width: 768px){
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    #section-1 h1{
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    #section-1 p {
+        text-align: center;
+        line-height: 35px;
+    }
     
-    #section-1 p{
+.photo-container {
+    max-width: 500px;
+    max-height: 450px;
+    margin: 15px auto;
+}
+
+#section-3 .photo-container {
+    max-width: 200px;
+}
+
+}
+
+@media screen and (max-width: 480px) {
+    #section-1 h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #section-1 p {
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .photo-container {
+        max-width: 300px;
+        max-height: 150px;
+        margin: 25px auto;
+    }
+    #section-2{
+        margin-bottom: 15px;
+    }
+
+    #section-2 p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #section-3 h2 {
+        font-size: 30px;
+        line-height: 28px;
+        margin-bottom: 20px;
         text-align: center;
     }
 
-  }
+    #section-3 ul li {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: justify;
+        margin-bottom: 15px;
+    }
 
-  @media screen and (max-width: 480px) {
-        #section-1 h1{
-            font-size: 30px;
-            line-height: 35px;
-            margin-bottom: 20px;
-        }  
-        #section-1 p{
-            font-size: 20px;
-            text-align: center;
-            line-height: 25px;
-        }
-        #section-2 p{
-            font-size: 20px;
-            line-height: 25px;
-        }  
+    .icon-container {
+        max-width: 20px;
+        max-height: 20px;
+        margin-right: 5px;
+    }
 
-        #section-3 h2{
-            font-size: 30px;
-            line-height: 28px;
-            margin-bottom: 20px;
-            text-align: center;
-        }
 
-        #section-3 ul li{
-            font-size: 15px;
-            line-height: 25px;
-            text-align: justify;
-            margin-bottom: 15px;   
-        }
-        
-        .icon-container{
-            max-width: 20px;
-            max-height: 20px;
-            margin-right: 5px;
-        }
+    #section-3 .photo-container {
+        max-width: 180px;
+    }
 
-        
-    #section-3 .photo-container{
-        max-height: 300px;
 }
-
-  }
-
